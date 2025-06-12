@@ -1,6 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#define CONFIG_ZMK_DISPLAY=y
+#define CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
+
 #define MIRYOKU_LAYER_BASE \
 &kp GRAVE,          &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,                   &kp BSLH,   \
 &kp LBKT,           U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SEMI),        &kp SQT,    \
